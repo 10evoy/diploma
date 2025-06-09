@@ -26,7 +26,12 @@ pip install -r requirements.txt
 ```
 YANDEX_API_KEY=ваш_ключ_api
 YANDEX_FOLDER_ID=ваш_id_папки
-https://yandex.cloud/ru/services/yandexgpt
+```
+Их найти на сайте: https://yandex.cloud/ru/services/yandexgpt
+Создание через консоль:
+```bash
+echo "YANDEX_API_KEY=ваш_ключ_api
+YANDEX_FOLDER_ID=ваш_id_папки" > .env
 ```
 
 ## Использование

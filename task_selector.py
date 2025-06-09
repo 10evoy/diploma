@@ -176,7 +176,7 @@ class TaskSelector:
             ]
             
             completion = client.chat.completions.create(
-                model="gpt://b1g4trjg7hunfb0hobju/yandexgpt/latest",
+                model=f"gpt://{FOLDER_ID}/yandexgpt/latest",
                 messages=messages
             )
             

@@ -1,0 +1,28 @@
+# Конфиденциальные данные
+.env
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+
+# Файлы IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Временные файлы
+.DS_Store
+.ipynb_checkpoints/
+
+# Логи
+*.log
